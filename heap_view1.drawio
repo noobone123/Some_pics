@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T08:07:58.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" version="17.4.0" etag="D8lHezU2IXgKiXkIK_Vf" type="github"><diagram id="n-qQOzfSDZQhD81esmXn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-01T08:11:40.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="3oJors4XevevIhnr08ej" version="17.4.0" type="github">
+  <diagram id="n-qQOzfSDZQhD81esmXn" name="第 1 页">
+    <mxGraphModel dx="1506" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RMDb3A9PUWip_FTBD__W-1" value="Top chunk" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;glass=1;shadow=0;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-2" value="Chunk B" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;shadow=0;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=20;" edge="1" parent="1" source="RMDb3A9PUWip_FTBD__W-3" target="RMDb3A9PUWip_FTBD__W-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;shadow=0;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-4" value="Chunk A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-5" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-6" value="fd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="RMDb3A9PUWip_FTBD__W-5">
+          <mxGeometry x="0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint x="37" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-7" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-8" value="bk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="RMDb3A9PUWip_FTBD__W-7">
+          <mxGeometry x="0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint x="37" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-9" value="Unsorted bin" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;shadow=0;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMDb3A9PUWip_FTBD__W-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=20;exitX=1.013;exitY=0.835;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RMDb3A9PUWip_FTBD__W-3" target="RMDb3A9PUWip_FTBD__W-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
